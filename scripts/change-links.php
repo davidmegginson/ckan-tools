@@ -51,8 +51,18 @@ foreach ($package_ids as $package_id) {
   // Get all the resources for this pacakge
   $resources = $package->resources;
   foreach ($resources as $resource) {
+
+    // Check if the URL matches the pattern
     if (preg_match($url_pattern, $resource->url)) {
-      print("Match: {$resource->url}\n");
+
+      // Replace from-string with to-string
+      $url = str_replace($from_string, $to_string, $resource->url);
+
+      // If the URL is actually changed, update the resource
+      if ($url != $resource->url) {
+        print "$url\n";
+      }
+
     }
   }
 }
