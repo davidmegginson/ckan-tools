@@ -47,6 +47,7 @@ $ckan = new CKANClient($ckan_base_url, $ckan_api_key, $ckan_user_agent);
 $package_ids = $ckan->package_list();
 foreach ($package_ids as $package_id) {
   $package = $ckan->package_show($package_id);
+  print("Looking at dataset {$package->name}...\n");
   
   // Get all the resources for this pacakge
   $resources = $package->resources;
@@ -60,10 +61,12 @@ foreach ($package_ids as $package_id) {
 
       // If the URL is actually changed, update the resource
       if ($url != $resource->url) {
-        print "$url\n";
+        print("  Changing {$resource->url} to $url...\n");
+        $ckan->resource_update($resource->id, array('url' => $url));
       }
 
     }
   }
 }
 
+print("Done");

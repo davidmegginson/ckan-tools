@@ -1,5 +1,14 @@
 <?php
-
+/**
+ * PHP client library for CKAN 2.2 (not yet complete).
+ *
+ * For API documentation, see http://docs.ckan.org/en/ckan-2.2/api.html
+ *
+ * Usage:
+ *   $ckan = new CKANClient("http://demo.ckan.org", "<my-api-key>", "<fake-user-agent>");
+ *
+ * Started April 2014 by David Megginson.
+ */
 class CKANClient {
 
   function __construct($base_url, $api_key = null, $user_agent = 'ckan-script') {
@@ -16,6 +25,9 @@ class CKANClient {
     return $this->_request('site_read');
   }
 
+  /**
+   * List of all dataset ids
+   */
   function package_list($limit = null, $offset = null) {
     return $this->_request('package_list', array(
       'limit' => $limit,
@@ -384,7 +396,11 @@ class CKANClient {
 
   // make_latest_pending_package_active
   // related_update
-  // resource_update
+
+  function resource_update($id, $options) {
+    $options['id'] = $id;
+    return $this->_request('resource_update', $options);
+  }
 
   function package_update($name, $owner_org, $options) {
     $options['name'] = $name;
@@ -478,3 +494,5 @@ class CKANClient {
   }
   
 }
+
+// end
