@@ -14,3 +14,4 @@ appropriate connection information for your CKAN instance.
 
 
 Started April 2014 by David Megginson
+All code is in the Public Domain
