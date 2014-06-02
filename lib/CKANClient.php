@@ -480,7 +480,7 @@ class CKANClient {
 
     $json = file_get_contents($url, false, stream_context_create($options));
 
-    return json_decode($json)->result;
+    return json_decode($json);
   }
 
   private function _strip_null_params($params_in) {
