@@ -1,0 +1,142 @@
+id,name,iso3
+31,Afghanistan,AFG
+4,Albania,ALB
+7,"American Samoa",ASM
+6,Angola,AGO
+1,"Antigua and Barbuda",ATG
+8,Argentina,ARG
+5,Armenia,ARM
+3,Azerbaijan,AZE
+13,Bahamas,BHS
+14,Bangladesh,BGD
+11,Barbados,BRB
+15,Belize,BLZ
+19,Benin,BEN
+32,Bhutan,BTN
+17,Bolivia,BOL
+16,"Bosnia and Herzegovina",BIH
+182,Botswana,BWA
+21,Brazil,BRA
+22,Bulgaria,BGR
+210,"Burkina Faso",BFA
+18,Burma,MMR
+29,Burundi,BDI
+25,Cambodia,KHM
+35,Cameroon,CMR
+24,Canada,CAN
+40,"Central African Republic",CAF
+36,Chad,TCD
+33,Chile,CHL
+30,China,CHN
+38,Colombia,COL
+37,Comoros,COM
+27,Congo,COG
+39,"Costa Rica",CRI
+87,"Cote d'Ivoire",CIV
+80,Croatia,HRV
+41,Cuba,CUB
+28,"Democratic Republic of the Congo",COD
+46,Djibouti,DJI
+47,Dominica,DMA
+48,"Dominican Republic",DOM
+49,Ecuador,ECU
+50,Egypt,EGY
+55,"El Salvador",SLV
+52,"Equatorial Guinea",GNQ
+56,Ethiopia,ETH
+61,Fiji,FJI
+67,Gabon,GAB
+66,Gambia,GMB
+68,Georgia,GEO
+69,Ghana,GHA
+70,Grenada,GRD
+75,Guatemala,GTM
+76,Guinea,GIN
+168,Guinea-Bissau,GNB
+77,Guyana,GUY
+78,Haiti,HTI
+79,Honduras,HND
+83,India,IND
+225,Indonesia,IDN
+88,Iraq,IRQ
+90,Jamaica,JAM
+89,Japan,JPN
+91,Jordan,JOR
+98,Kazakhstan,KAZ
+92,Kenya,KEN
+94,"Korea, Democratic People's Republic of",PRK
+96,"Korea, Republic of",KOR
+93,Kyrgyzstan,KGZ
+99,"Lao People's Democratic Republic",LAO
+100,Lebanon,LBN
+181,Lesotho,LSO
+104,Liberia,LBR
+107,"Libyan Arab Jamahiriya",LBY
+103,Lithuania,LTU
+108,Madagascar,MDG
+130,Malawi,MWI
+128,Malaysia,MYS
+126,Maldives,MDV
+113,Mali,MLI
+123,Mauritania,MRT
+122,Mauritius,MUS
+127,Mexico,MEX
+110,Mongolia,MNG
+114,Morocco,MAR
+129,Mozambique,MOZ
+218,Namibia,NAM
+116,Nepal,NPL
+119,Nicaragua,NIC
+133,Niger,NER
+160,Nigeria,NGA
+138,"Northern Mariana Islands",MNP
+163,Pakistan,PAK
+146,Palestine,PSE
+165,Panama,PAN
+167,"Papua New Guinea",PNG
+121,Paraguay,PRY
+162,Peru,PER
+173,Philippines,PHL
+174,"Puerto Rico",PRI
+169,Qatar,QAT
+172,"Republic of Moldova",MDA
+171,Romania,ROM
+175,Russia,RUS
+176,Rwanda,RWA
+178,"Saint Kitts and Nevis",KNA
+189,"Saint Lucia",LCA
+213,"Saint Vincent and the Grenadines",VCT
+200,"Sao Tome and Principe",STP
+183,Senegal,SEN
+238,Serbia,SRB
+185,"Sierra Leone",SLE
+20,"Solomon Islands",SLB
+187,Somalia,SOM
+180,"South Africa",ZAF
+247,"South Sudan",SSD
+26,"Sri Lanka",LKA
+190,Sudan,SDN
+118,Suriname,SUR
+221,Swaziland,SWZ
+192,"Syrian Arab Republic",SYR
+196,Tajikistan,TJK
+195,Thailand,THA
+112,"The former Yugoslav Republic of Macedonia",MKD
+229,Timor-Leste,TLS
+199,Togo,TGO
+194,"Trinidad and Tobago",TTO
+201,Tunisia,TUN
+202,Turkey,TUR
+204,Turkmenistan,TKM
+206,Uganda,UGA
+208,Ukraine,UKR
+207,"United Kingdom",GBR
+205,"United Republic of Tanzania",TZA
+209,"United States",USA
+211,Uruguay,URY
+212,Uzbekistan,UZB
+214,Venezuela,VEN
+216,"Viet Nam",VNM
+222,Yemen,YEM
+223,Zambia,ZMB
+224,Zimbabwe,ZWE
