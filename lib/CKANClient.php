@@ -469,7 +469,7 @@ class CKANClient {
         'method' => 'POST',
         'header' => "User-Agent: {$this->user_agent}\r\n" .
                     "Authorization: {$this->api_key}\r\n" .
-                    "Content-type: text/json\r\n",
+                    "Content-type: application/json\r\n",
         'content' => json_encode($params),
       ),
     );
@@ -478,9 +478,7 @@ class CKANClient {
       $options['http']['content'] = '{}';
     }
 
-    $json = file_get_contents($url, false, stream_context_create($options));
-
-    return json_decode($json);
+    return $this->_request($url, $options);
   }
 
   private function _get_request($command, $params = array()) {
@@ -497,14 +495,13 @@ class CKANClient {
                     "Authorization: {$this->api_key}\r\n",
       ),
     );
+    return $this->_request($url, $options);
+  }
 
-    if (!$params) {
-      $options['http']['content'] = '{}';
-    }
-
+  private function _request($url, $options) {
     $json = file_get_contents($url, false, stream_context_create($options));
-
-    return json_decode($json);
+    $data = json_decode($json);
+    return $data;
   }
 
   private function _strip_null_params($params_in) {
